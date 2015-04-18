@@ -1,0 +1,83 @@
+@font-face{
+	font-family: FiraSans-Medium;
+	src: url(../fonts/fira-sans/FiraSans-Medium.otf);
+}
+@font-face{
+	font-family: FiraSans-Light;
+	src: url(../fonts/fira-sans/FiraSans-Light.otf);
+}
+@font-face{
+	font-family: icon;
+	src: url(../fonts/icons.ttf);
+}
+*{
+	box-sizing: boder-box;
+}
+article{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 15px;
+}
+footer h4 span{
+	font-family: FiraSans-Light;
+}
+header nav ul li span{
+	font-family: icon;
+}
+html, body {
+  	height: 100%;
+  	font-family: FiraSans-Medium;
+}
+p{
+	font-family: FiraSans-Light;
+}
+.page-wrap {
+  	min-height: 100%;
+  	/* equal to footer height */
+  	margin-bottom: -150px; 
+}
+.page-wrap:after {
+	content: "";	
+	display: block;
+}
+.site-footer, .page-wrap:after {
+  	height: 150px; 
+}
+.site-footer {
+	color: gray;
+	background: #E7E7E7;
+	line-height: 6em;
+	margin: 0 auto;
+	padding: 20px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+.site-footer img{
+	height: 64px;
+	margin: 0 auto;
+	max-width: 100%
+}
+.logo{
+	height: 120px;
+}
+.redes-sociales{
+	background-color: #555555;
+	border-radius: 5px;
+	color: white;
+	line-height: 3em;
+}
+#redes img{
+	height: 135px;
+	margin: 0;
+	width: auto;
+}
+#redes a{
+	text-align: center;
+}
+
+@media (max-width: 768px){
+	.site-footer{
+		height: auto;
+	}
+}
